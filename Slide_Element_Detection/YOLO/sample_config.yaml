@@ -1,0 +1,23 @@
+train: /DATA/penamakuri1/Suyash/YOLO_data/equation_caption_removed_yolo_data/real_300/images/train
+val: /DATA/penamakuri1/Suyash/YOLO_data/equation_caption_removed_yolo_data/real_300/images/val
+imgsz: [360,640]
+nc: 16 # number of classes
+names: ['title',
+ 'text',
+ 'enumeration',
+ 'url',
+ 'equation',
+ 'table',
+ 'diagram',
+ 'chart',
+ 'heading',
+ 'slideNr',
+ 'footer_element',
+ 'figure_caption',
+ 'table_caption',
+ 'logo',
+ 'code',
+ 'natural_image']
+
+
+
